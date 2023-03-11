@@ -7,5 +7,3 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 - add commitlint ([9148cc5](https://github.com/panxiangxin/clone/commit/9148cc5ebc8fb3dddacf730dedc56669ced08612))
-
-# 变更日志

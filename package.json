@@ -16,6 +16,7 @@
     "prettier": "prettier --write .",
     "prepare": "husky install",
     "lint": "eslint src config test",
+    "lint:prettier": "prettier --check .",
     "changelog": "standard-version",
     "cz": "git-cz"
   },
