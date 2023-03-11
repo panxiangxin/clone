@@ -14,7 +14,8 @@
     "test": "cross-env NODE_ENV=test nyc mocha",
     "test:puppeteer": "node test/browser/puppeteer.js",
     "prettier": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint src config test"
   },
   "keywords": [],
   "author": "",
@@ -30,8 +31,12 @@
     "@babel/register": "7.0.0",
     "babel-plugin-istanbul": "5.1.0",
     "cross-env": "5.2.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "expect.js": "0.3.1",
     "husky": "^8.0.0",
+    "lint-staged": "^13.2.0",
     "mocha": "3.5.3",
     "nyc": "13.1.0",
     "prettier": "2.8.4",
