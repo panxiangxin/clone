@@ -1,5 +1,7 @@
 import { type } from './type.js';
 
+Array.from('abc');
+
 export function clone(source) {
   const t = type(source);
   if (t !== 'object' && t !== 'array') {
