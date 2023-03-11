@@ -1,4 +1,4 @@
-name: Node.js CI
+name: CI
 on:
   push:
     branches: [master]
@@ -25,7 +25,7 @@ jobs:
           cache: 'npm'
       - run: npm run ci
       - run: npm lint:prettier
-      - run: npmp run lint
+      - run: npm run lint
   test:
     needs: lint
     runs-on: ubuntu-latest
